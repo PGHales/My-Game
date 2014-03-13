@@ -1,0 +1,105 @@
+html {
+	height: 100%;
+}
+body {
+	background-color: #555555;
+/*	background: -webkit-linear-gradient(lime, transparent);*/
+}
+rdio {
+	margin-left: 20px;
+	cursor: pointer;
+}
+.rio {
+	font-weight: bold;
+}
+.sign-up {
+	border: 5px solid #76daff;
+	width: 45%;
+	float: right;
+	text-align: left;
+	background-color: black;
+	box-shadow: 0 0 60px rgba(0,0,0,0.5);position: static;
+	color: #76daff;
+}
+.top-bar {
+	border: 5px solid #76daff;
+    box-shadow: 0 0 60px rgba(0,0,0,0.5);position: static;
+    background-color: black;
+    font-weight: bold;
+    color: #76daff;
+    padding: 15px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+button {
+	background-color: black;
+	border: 5px solid #76daff;
+    box-shadow: 0 0 60px rgba(0,0,0,0.5);position: static;
+    padding: 7px;
+    color: #76daff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    /*transition-property: background, border, color;
+	transition-duration: 1s;*/
+}
+button:hover {
+	background-color: red;
+	border: 5px solid darkred;
+	color: black;
+/*	-webkit-transform: rotate(1turn);
+	transition: .8s ease-in-out;*/
+}
+button:active {
+	background-color: lime;
+	border: 5px solid green;
+/*	transition: 0s;*/
+}
+
+h1 {
+	padding-left: 20px;
+}
+.login-input {
+	border: 5px solid #76daff;
+    box-shadow: 0 0 60px rgba(0,0,0,0.5);position: static;
+    padding: 3px;
+    border-radius: 10px;
+}
+.signup-input {
+	border: 2px solid #76daff;
+	padding: 9px 8px 9px 8px;
+	width: 300px;
+	margin-left: 20px;
+	border-radius: 6.5px;
+	font-size: 18px;
+}
+.signup-btn {
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+label {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+input::-webkit-input-placeholder {
+    color: none;
+    font-weight: none;
+}
+.box {
+	/*background: -webkit-linear-gradient(lime, magenta);*/
+/*	background: -webkit-radial-gradient(circle closest-side, lime, magenta);*/
+	
+	/*background: -webkit-radial-gradient(65% 15%, circle, aqua, darkblue);
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;*/
+
+	border: 5px solid #76daff;
+	width: 50%;
+	padding: 15% 0;
+	float: left;
+	text-align: left;
+	box-shadow: 0 0 60px rgba(0,0,0,0.5);position: static;
+	color: #76daff;
+	background: black;
+}
